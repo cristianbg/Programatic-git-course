@@ -12,4 +12,5 @@ jokes = [
 @app.get("/")
 def tell_a_joke():
     joke = random.choice(jokes)
-    return f"<p>{joke}</p>"
+    return f"<p>{joke}</p>"0.
+    
